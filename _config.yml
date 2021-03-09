@@ -1,5 +1,5 @@
 name: Ansyble
-baseurl:ansyblemessenger
+baseurl: ansyblemessenger
 
 permalink: /:year/:month/:day/:title
 plugins:
