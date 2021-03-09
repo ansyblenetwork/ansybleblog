@@ -7,7 +7,7 @@
 		<title>{{ site.name }}</title>
 	{% endif %}
 	<link rel="stylesheet" type="text/css" href="{{ "main.css" | relative_url }}">
-	<link rel="icon" href="">
+	<link rel="icon" href="{{ "transparent.png" | relative_url }}">
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	{% seo %}
@@ -17,7 +17,8 @@
 	<div id="outersidebar" class="outersidebar">
 	<div class="sidebar">
 	<div class="rpanel" id="accountPanel" tabIndex="-1" onfocus="D('postlist').focus();">		
-		<div class="titlepanel">
+		<div class="titlepanel">			
+			<a href="{{ "" | absolute_url }}"><img src="{{ "transparent.png" | relative_url }}" alt="{{ site.posts.last.url | relative_url }}" style="flex-shrink:0; max-height:50px; padding-right:10px"></a>
 			<span style="font-weight:bold;"><a href="{{ "" | absolute_url }}">{{ site.name }}</a>
 				<div style="margin-top:10px; font-size:0.8em;"><a href="{{ site.posts.last.url | relative_url }}">About</a></div>
 			</span>
