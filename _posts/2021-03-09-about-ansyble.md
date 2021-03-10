@@ -45,7 +45,7 @@ The cryptographic primitives are pulled from the state-of-the-art [Web Crypto AP
 
 #### Has a third party verified the encryption?
 
-No, Ansyble is a one-person project and at the time of writing, essentially no one knows about it. If you're interested in the project and/or the encryption, I would be happy to discuss.
+No, Ansyble is a one-person project and at the time of writing, essentially no one knows about it. If you're interested in the project and/or the encryption, I would be happy to discuss via email.
 
 #### Wait...is the icon inspired by that famous photograph, (xyz)?
 
