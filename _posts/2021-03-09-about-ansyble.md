@@ -5,7 +5,7 @@ title: "About Ansyble"
 Ansyble is an app for online conversations. Unlike most other chat apps, it is built on the open web. This means that it can produce a comparatively seamless experience. For instance:
 
 1. It's easy to get started: Just choose a username. There is no need for or association with phone numbers or emails.
-2. Ansyble runs on any major browser (Chome, Firefox, or Safari), with no installation or downloads, either mobile or desktop.
+2. Ansyble runs on any major browser (Chome, Firefox, or Safari), with no installation or downloads, on either mobile or desktop.
 3. Messages are synchronized in real-time between however many devices you happen to be using.
 4. Messages are saved on the cloud, so you can immediately access and search them from any of those devices.
 5. All communications and personal data are end-to-end encrypted. Nothing appears as plaintext to Ansyble except usernames and timestamps.
