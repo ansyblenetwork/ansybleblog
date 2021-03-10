@@ -35,7 +35,7 @@ I will make every effort to inform all users if support ends. (Until then, keep 
 
 #### Is my data safe FROM Ansyble?
 
-Yes. All messages and personal data are end-to-end encrypted, and thus opaque from me and Ansyble.
+Yes. All messages and personal data are end-to-end encrypted, and thus opaque to me and Ansyble.
 
 #### How is Ansyble encrypted?
 
