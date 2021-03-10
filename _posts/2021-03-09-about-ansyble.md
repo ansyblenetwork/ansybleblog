@@ -8,10 +8,11 @@ Ansyble is an app for online conversations. Unlike most other chat apps, it is b
 2. Ansyble runs on any major browser (Chome, Firefox, or Safari), with no installation or downloads, on either mobile or desktop.
 3. Messages are synchronized in real-time between however many devices you happen to be using.
 4. Messages are saved on the cloud, so you can immediately access and search them from any of those devices.
-5. All communications and personal data are end-to-end encrypted. Nothing appears as plaintext to Ansyble except usernames and timestamps.
-6. You can easily export messages to CSV/Excel.
-7. The interface is simple and optimized: Minimal so as to host the maximal number of features. (Modulo gifs and emojis; for those you are on your own.)
-8. Everything is open source, in one small HTML file you can access from your browser's development tools.
+5. By default, Ansyble saves no personal information to your device.
+6. All communications and personal data are end-to-end encrypted. Nothing appears as plaintext to Ansyble except usernames and timestamps.
+7. You can easily export messages to CSV/Excel.
+8. The interface is simple and optimized: Minimal so as to host the maximal number of features. (Modulo gifs and emojis; for those you are on your own.)
+9. Everything is open source, in one small HTML file you can access from your browser's development tools.
 
 In short, there should be a simple, fast, and fully functional username-based messaging application build on the modern browser. I wasn't aware of one, so I made one.
 
