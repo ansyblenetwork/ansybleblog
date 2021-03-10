@@ -2,4 +2,37 @@
 title: "About Ansyble"
 ---
 
-Conversations on the open web!
+Ansyble is an app for online conversations. Unlike most other chat apps, it is built on the open web. The objective is to have as seamless an experience as possible. For instance:
+
+1. It's easy to get started: Just choose a username. There is no need for or association with phone numbers or emails.
+2. Ansyble runs on any major browser (Chome, Firefox, or Safari), with no installation or downloads, either mobile or desktop.
+3. Messages are synchronized in real-time between however many devices you happen to be using.
+4. Messages are saved on the cloud, so you can immediately access and search them from any of those devices.
+5. All communications and personal data are end-to-end encrypted. Nothing appears as plaintext to Ansyble except usernames and timestamps.
+6. You can easily export messages to CSV/Excel.
+7. The interface is simple and optimized: Minimal so as to host the maximal number of features. (Modulo gifs and emojis; for those you are on your own.)
+8. Everything is open source, in one small HTML file you can access from your browser's development tools.
+
+In short, there should be a simple, fast, and fully functional username-based messaging application build on the modern browser. I wasn't aware of one, so I made one.
+
+#### Who are you?
+
+I'm a random stranger on the internet who might know a bit about coding and cryptography. You can contact me at: ansyblenetwork@gmail.com
+
+#### Why can't I find Ansyble on Google?
+
+I made Ansyble for fun during 2020. I'm not making any real effort on SEO or promotion. Ansyble may or may not grow; if it does, it will have been organically.
+
+#### How is Ansyble encrypted?
+
+The protocol is essentially the Signal Protocol. However, unlike Signal, the keys are stored on the cloud. These keys are encrypted with (a hash of) your password, so the end-to-end encryption is authentic. (However, this approach renders forward secrecy mostly meaningless. if you're paranoid, I did implement a true Signal Protocol option. You can see it in the login options. In exchange, this option renders Ansyble's portability mostly meaningless.)
+
+The cryptographic primitives are pulled from the state-of-the-art [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API).
+
+#### Has a third party verified the encryption?
+
+No, Ansyble is a one-person project and at the time of writing, essentially no one knows about it. If you're interested in the project and/or the encryption, I would be happy to discuss.
+
+#### Wait...is the icon inspired by that famous photograph, xyz?
+
+YES. Contact me!!
