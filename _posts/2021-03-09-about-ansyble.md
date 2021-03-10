@@ -23,6 +23,18 @@ I'm a random stranger on the internet who might know a bit about coding and cryp
 
 I made Ansyble for fun during 2020. I'm not making any real effort on SEO or promotion. Ansyble may or may not grow; if it does, it will have been organically.
 
+#### Does Ansyble make any money?
+
+No.
+
+#### Is my data safe on Ansyble? Will it be here tomorrow, next week, next month, etc?
+
+It's a legitimate concern. So far, Ansyble has been up and running since March 2020. If you're reading this, then it is still up and running. I will make every effort to inform all users if support ends. (Until then, keep in mind that there is a neat little export to CSV/Excel function for your backup needs.)
+
+#### Is my data safe FROM Ansyble?
+
+Yes; all messages and personal data are end-to-end encrypted, and thus opaque from me and Ansyble.
+
 #### How is Ansyble encrypted?
 
 The protocol is essentially the Signal Protocol. However, unlike Signal, keys are stored on the cloud. These keys are encrypted using (a hash of) your password, so the end-to-end encryption is authentic. (However, this approach renders forward secrecy mostly meaningless. if you're paranoid, a true Signal Protocol option is available at login as well. In exchange, this option renders Ansyble's portability mostly meaningless.)
