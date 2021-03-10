@@ -48,7 +48,7 @@ The cryptographic primitives are pulled from the state-of-the-art [Web Crypto AP
 
 No. Ansyble is a one-person project and at the time of writing, essentially no one knows about it. 
 
-However, the source code is always available to you (or any user) via your browser's development tools. If you're interested in the project and/or the encryption, I would be happy to discuss via email.
+However, the source code is always available to you (or any user) via your browser's development tools. If you're interested in the project and/or the encryption, I would be happy to discuss via email: ansyblenetwork@gmail.com
 
 Note: I am aware of and waiting for action regarding [this](https://github.com/w3c/ServiceWorker/issues/822) theoretical concern.
 
