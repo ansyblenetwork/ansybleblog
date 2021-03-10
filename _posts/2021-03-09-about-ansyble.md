@@ -29,7 +29,7 @@ No.
 
 #### Is my data safe on Ansyble? Will it be here tomorrow, next week, next month, etc?
 
-It's a legitimate concern. So far, Ansyble has been up and running since March 2020. If you're reading this, then it is still up and running. At the time of writing, Ansyble is free for me to run, so I have no reason to end the project.
+It's a legitimate concern. So far, Ansyble has been up and running since March 2020. At the time of writing, Ansyble is free for me to run, so I have no reason to end the project.
 
 I will make every effort to inform all users if support ends. (Until then, keep in mind that there is a neat little export to CSV/Excel function for your backup needs.)
 
