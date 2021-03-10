@@ -25,7 +25,7 @@ I made Ansyble for fun during 2020. I'm not making any real effort on SEO or pro
 
 #### How is Ansyble encrypted?
 
-The protocol is essentially the Signal Protocol. However, unlike Signal, the keys are stored on the cloud. These keys are encrypted with (a hash of) your password, so the end-to-end encryption is authentic. (However, this approach renders forward secrecy mostly meaningless. if you're paranoid, I did implement a true Signal Protocol option. You can see it in the login options. In exchange, this option renders Ansyble's portability mostly meaningless.)
+The protocol is essentially the Signal Protocol. However, unlike Signal, the keys are stored on the cloud. These keys are encrypted with (a hash of) your password, so the end-to-end encryption is authentic. (However, this approach renders forward secrecy mostly meaningless. if you're paranoid, a true Signal Protocol option is available at login as well. In exchange, this option renders Ansyble's portability mostly meaningless.)
 
 The cryptographic primitives are pulled from the state-of-the-art [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API).
 
