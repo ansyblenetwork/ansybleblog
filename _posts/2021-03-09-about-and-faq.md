@@ -14,7 +14,7 @@ Ansyble is an app for online conversations. Unlike most other chat apps, it is b
 8. The interface is simple and optimized: Minimal so as to host the maximal number of features. (Modulo gifs and emojis; for those you are on your own.)
 9. Everything is open source, in one small HTML file you can access from your browser's development tools.
 
-In short, there should be a simple, fast, and fully functional username-based messaging application build on the modern browser. I wasn't aware of one, so I made one.
+In short, there should be a simple, fast, and fully functional username-based messaging application built on the modern browser. I wasn't aware of one, so I made one.
 
 #### Who are you?
 
