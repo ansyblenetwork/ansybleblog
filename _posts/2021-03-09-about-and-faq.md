@@ -1,5 +1,5 @@
 ---
-title: "About Ansyble"
+title: "About and FAQ"
 ---
 
 Ansyble is an app for online conversations. Unlike most other chat apps, it is built on the open web. This means that it can produce a comparatively seamless experience. For instance:
