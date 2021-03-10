@@ -36,7 +36,7 @@ I will make every effort to inform all users if support ends. (Until then, keep 
 
 #### Is my data safe FROM Ansyble?
 
-Yes. All messages and personal data are end-to-end encrypted, and thus opaque to me and Ansyble.
+Yes. All messages and personal data are end-to-end encrypted, and thus opaque to me and Ansyble. This is not just a default setting; there is no other option.
 
 #### How is Ansyble encrypted?
 
@@ -46,7 +46,11 @@ The cryptographic primitives are pulled from the state-of-the-art [Web Crypto AP
 
 #### Has a third party verified the encryption?
 
-No, Ansyble is a one-person project and at the time of writing, essentially no one knows about it. If you're interested in the project and/or the encryption, I would be happy to discuss via email.
+No, Ansyble is a one-person project and at the time of writing, essentially no one knows about it. 
+
+However, the source file is always available to you (or any user) via your browser's development tools. If you're interested in the project and/or the encryption, I would be happy to discuss via email. 
+
+Note: I am aware of and waiting for action regarding [this](https://github.com/w3c/ServiceWorker/issues/822) theoretical concern.
 
 #### Wait...is the icon inspired by that famous photograph, (xyz)?
 
