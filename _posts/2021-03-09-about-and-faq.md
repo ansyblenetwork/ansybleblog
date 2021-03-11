@@ -42,7 +42,7 @@ Yes. All messages and personal data are end-to-end encrypted, and thus opaque to
 
 #### How is Ansyble encrypted?
 
-The protocol is essentially the Signal Protocol. However, unlike Signal, keys are stored on the cloud. These keys are encrypted using (a hash of) your password, so the end-to-end encryption is authentic. (However, this approach renders forward secrecy mostly meaningless. if you're paranoid, a true Signal Protocol option is available at login as well. In exchange, this option renders Ansyble's portability mostly meaningless.)
+The protocol is essentially the Signal Protocol. However, unlike Signal, keys are stored on the cloud. These keys are encrypted using (a hash of) your password, so the end-to-end encryption is authentic. (However, this approach renders forward secrecy mostly meaningless. If you're paranoid, a true Signal Protocol option is available at login as well. In exchange, this option renders Ansyble's portability mostly meaningless.)
 
 The cryptographic primitives are pulled from the state-of-the-art [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API).
 
@@ -54,6 +54,6 @@ However, the source code is always available to you (or any user) via your brows
 
 Note: I am aware of and waiting for action regarding [this](https://github.com/w3c/ServiceWorker/issues/822) theoretical concern.
 
-#### Wait...is the icon inspired by that famous photograph, (xyz)?
+#### Wait...is the icon inspired by that well-known photograph, (xyz)?
 
 YES. Contact me!!
