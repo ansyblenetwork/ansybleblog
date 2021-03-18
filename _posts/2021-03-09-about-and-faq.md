@@ -32,7 +32,7 @@ No.
 
 This is a legitimate concern. So far, Ansyble has been up and running since March 2020, or at least one year. At the time of writing, Ansyble is free and essentially effortless for me to run, so I have no reason to end the project.
 
-The only reason I can imagine that this would change is if a lot of people suddenly started using Ansyble. Then maintenance would be less free and effortless. But to my mind, such increased interest would only make me more inclined to continue the project.
+The only reason I can imagine that this would change is if a lot of people suddenly started using Ansyble. Then, maintenance would be less free and effortless. But to my mind, such increased interest would only make me more inclined to continue the project.
 
 In any case, I will make every effort to inform all users if support ends. (Until then, keep in mind that there is a convenient export-to-CSV/Excel function for your backup needs.)
 
