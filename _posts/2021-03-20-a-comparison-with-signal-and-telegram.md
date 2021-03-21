@@ -35,7 +35,7 @@ On the other hand, due to its minimal device footprint, Ansyble enjoys forms of 
 
 In contrast, with Signal, if someone physically obtains your device, your entire message history is compromised. It's also worth bringing up Telegram's criticism of Signal's security model: The typical user does want to back up their messages, and if they do, they're likely to use something like Google drive, which is unencrypted, entirely defeating the purpose of end-to-end encryption.
 
-#### Telegram
+### Telegram
 
 Telegram is essentially not encrypted. Rather, it supports end-to-end encrypted "secret chats" as a temporary communication channel, like a video chat. It's kind of a strange feature to have, because if I truly had something extraordinarily sensitive that I deliberately wanted Telegram not to access, I would use Signal or real life (or Ansyble!).
 
