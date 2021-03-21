@@ -6,6 +6,8 @@ Ansyble is in many ways a theoretical endeavor. It has a stylistic personality, 
 
 ### Signal
 
+At a high level, Signal ties security to your device, while Ansyble ties security to your password. (Ansyble currently does not support two-factor authentication. This would certainly change if it actually got a userbase.)
+
 #### Cryptographic protocol
 
 Signal's crypotographic protocol is really quite good. I'm not aware of many theoretical deficiencies, and I essentially used the Signal protocol with Ansyble.
