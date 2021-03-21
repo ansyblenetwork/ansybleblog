@@ -2,7 +2,7 @@
 title: "A comparison with Signal and Telegram"
 ---
 
-Ansyble is in many ways a theoretical endeavor. It has a stylistic personality, but I would not have made it if I only felt there were stylistic deficiencies in the existing menagerie of common messaging applications. In this post, we'll discuss how Ansyble differs from Signal and Telegram on the backend with a focus on data, cryptography, and distribution, and how this manifests in the user experience.
+Ansyble is in many ways a theoretical endeavor. It has a stylistic personality, but I would not have made it if I only noticed stylistic deficiencies in the existing menagerie of common messaging applications. In this post, we'll discuss how Ansyble differs from Signal and Telegram on the backend with a focus on data, cryptography, and distribution, and how this manifests in the user experience.
 
 ### Signal
 
@@ -12,7 +12,7 @@ At a high level, Signal ties security to your device, while Ansyble ties securit
 
 Signal's crypotographic protocol is really quite good. I'm not aware of many theoretical deficiencies, and I essentially used the Signal protocol with Ansyble.
 
-I did notice one minor deficiency: After you send a message and Signal updates your encryption keys, the next time your keys will be updated is when you get a reply. In a one-sided chat, this could mean that keys are not updated for a long time. In contrast, Ansyble will update your keys on every single message in a conversation, as long as your friend is _logged in_.
+I did notice one minor deficiency: After you send a message and Signal updates your encryption keys, the next time your keys update is when you get a reply. In a one-sided chat, this could mean that keys are not updated for a long time. In contrast, Ansyble will update your keys on every single message in a conversation, as long as your friend is _logged in_.
 
 #### Portability
 
