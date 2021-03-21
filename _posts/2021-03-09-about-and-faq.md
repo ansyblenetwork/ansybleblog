@@ -20,9 +20,11 @@ In short, there should be a simple, fast, and fully functional username-based me
 
 I'm a random stranger on the internet who might know a bit about coding and cryptography. You can contact me at: ansyblenetwork@gmail.com
 
+__Note:__ I'm only one person with a day job. Expectations that align with this are mostly true.
+
 #### Why can't I find Ansyble on Google?
 
-I made Ansyble for fun during 2020. I'm not making any real effort on SEO or promotion. Ansyble may or may not grow; if it does, it will have been organically.
+I made Ansyble for fun during 2020. I'm not making any serious effort on SEO or promotion. Ansyble may or may not grow; if it does, it will have been mostly organically.
 
 #### Does Ansyble make any money?
 
