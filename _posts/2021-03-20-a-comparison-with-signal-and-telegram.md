@@ -37,7 +37,7 @@ In contrast, with Signal, if someone physically obtains your device, your entire
 
 ### Telegram
 
-Telegram is essentially not encrypted. Rather, it supports end-to-end encrypted "secret chats" as a temporary communication channel, like a video chat. It's kind of a strange feature to have, because if I truly had something extraordinarily sensitive that I deliberately wanted Telegram not to access, I would use Signal or real life (or Ansyble!).
+Telegram is essentially not encrypted. Rather, it supports end-to-end encrypted "secret chats" as a temporary communication channel, akin to a temporary phone call or video chat. It's a strange feature to have, because if I truly had something extraordinarily sensitive that I deliberately wanted Telegram not to access, I would use Signal or real life (or Ansyble!).
 
 In contrast, Ansyble is _always_ end-to-end encrypted. In particular, all features are entirely compatible with its encryption.
 
