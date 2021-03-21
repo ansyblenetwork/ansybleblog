@@ -35,10 +35,11 @@ In contrast, with Signal, if someone physically obtains your device, your entire
 
 #### Telegram
 
-Telegram is essentially not end-to-end encrypted. It offers end-to-end encryption as a feature, but it destroys huge swaths of its functionality in doing so. In particular, Telegram does not save end-to-end encrypted chats, and does not support group end-to-end encryption.
+Telegram is essentially not encrypted. Rather, it supports end-to-end encrypted "secret chats" as a temporary communication channel, like a video chat. It's kind of a strange feature to have, because if I truly had something extraordinarily sensitive that I deliberately wanted Telegram not to access, I would use Signal or real life (or Ansyble!).
 
 In contrast, Ansyble is _always_ end-to-end encrypted. In particular, all features are entirely compatible with its encryption.
 
-I should add that Telegram is unlikely to change, because Telegram is at its heart, an unencrypted, public platform. The inescapable issue is that end-to-end encryption does not scale well, while the main draw of Telegram is its support for large communication channels. 
+I should add that Telegram is unlikely to change, because Telegram is at its heart, an unencrypted, public platform. The inescapable issue is that end-to-end encryption does not scale well, while the main draw of Telegram is its support for large communication channels. I've heard it does this very well. 
 
-Telegram treats end-to-end encryption as a temporary gadget, like video chat. It's kind of a strange feature to have, because if I truly had something sensitive to say that I deliberately wanted separate from the rest of my chat history, I would use Signal, Ansyble, or real life.
+It's unfortunate that people put Telegram in the same sentence as Signal; Telegram fits much better in a category with Twitter, Facebook, Twitch, etc.
+
