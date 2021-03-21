@@ -31,7 +31,7 @@ In contrast, Ansyble is built using the relatively new Progressive Web App (PWA)
 
 Is Ansyble less secure than Signal? In some ways, yes. In particular, forward secrecy is compromised. This means that there is a single piece of data (your password) which compromises your entire message history.
 
-On the other hand, due to its minimal device footprint, Ansyble enjoys forms of security that Signal cannot. Since it is designed for nearly complete functionality on public devices, you do not lose much functionality by treating your own device as a public device. Precisely: If you do not store your Ansyble password on your phone, Eve cannot read your Ansyble messages even with your phone in hand.
+On the other hand, due to its minimal device footprint, Ansyble enjoys forms of security that Signal cannot. Since Ansyble is designed for nearly complete functionality on public devices, you do not lose much functionality by treating your own device as a public device. Precisely: If you do not store your Ansyble password on your phone, Eve cannot read your Ansyble messages even with your phone in hand.
 
 In contrast, with Signal, if someone physically obtains your device, your entire message history is compromised. It's also worth bringing up Telegram's criticism of Signal's security model: The typical user does want to back up their messages, and if they do, they're likely to use something like Google drive, which is unencrypted, entirely defeating the purpose of end-to-end encryption.
 
