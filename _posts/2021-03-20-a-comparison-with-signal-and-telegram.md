@@ -21,9 +21,9 @@ Signal is not portable. This is by design. The main advantage is self-explanator
 On the other hand, there are a host of disadvantages:
 
 1. _You_ cannot use Signal or access your messages except on your phone.
-2. Messages can be easily lost, unless manually backed up.
+2. Messages are easily lost, unless manually backed up.
 3. Switching devices is a headache.
-4. There is a fractured experience in general, with separate apps for each OS and platform.
+4. There is a fractured experience, with separate apps for each OS and platform.
 
 In contrast, Ansyble is built using the relatively new Progressive Web App (PWA) framework. This means it is built entirely with HTML and Javascript, and runs on any device with a modern browser, with essentially the same user experience. It is designed to be portable: The app itself is available on public devices with no installation, and your account data is acessible from any device via a password. 
 
