@@ -10,7 +10,7 @@ At a high level, Signal ties security to your device, while Ansyble ties securit
 
 #### Portability
 
-Signal is not portable. This is by design. The main advantage is self-explanatory: Eve essentially cannot eavesdrop without your phone in hand.
+Signal is not portable. This is by design. The main advantage is self-explanatory: Eve essentially cannot eavesdrop on you, without your phone in hand.
 
 On the other hand, there are a host of disadvantages:
 
