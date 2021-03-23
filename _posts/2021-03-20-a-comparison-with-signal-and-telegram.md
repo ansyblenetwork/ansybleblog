@@ -8,12 +8,6 @@ Ansyble is in many ways a theoretical endeavor. In this post, we'll discuss how 
 
 At a high level, Signal ties security to your device, while Ansyble ties security to your password. (Ansyble currently does not support two-factor authentication. This would certainly change if it actually got a userbase.)
 
-#### Cryptographic protocol
-
-Signal's crypotographic protocol is really quite good. I'm not aware of many theoretical deficiencies, and I essentially used the Signal protocol with Ansyble.
-
-I did notice one minor deficiency: After you send a message and Signal updates your encryption keys, the next time your keys update is when you get a reply. In a one-sided chat, this could mean that keys are not updated for a long time. In contrast, Ansyble will update your keys on every single message in a conversation, as long as your friend is _logged in_.
-
 #### Portability
 
 Signal is not portable. This is by design. The main advantage is self-explanatory: Eve essentially cannot eavesdrop without your phone in hand.
@@ -26,6 +20,12 @@ On the other hand, there are a host of disadvantages:
 4. There is a fractured experience, with separate apps for each OS and platform.
 
 In contrast, Ansyble is built using the relatively new Progressive Web App (PWA) framework. This means it is built entirely with HTML and Javascript, and runs on any device with a modern browser, with essentially the same user experience. It is designed to be portable: The app itself is available on public devices with no installation, and your account data is acessible from any device via a password. 
+
+#### Cryptographic protocol
+
+Signal's crypotographic protocol is really quite good. I'm not aware of many theoretical deficiencies, and I essentially used the Signal protocol with Ansyble.
+
+I did notice one minor deficiency: After you send a message and Signal updates your encryption keys, the next time your keys update is when you get a reply. In a one-sided chat, this could mean that keys are not updated for a long time. In contrast, Ansyble will update your keys on every single message in a conversation, as long as your friend is _logged in_.
 
 #### Device footprint vs. forward secrecy
 
