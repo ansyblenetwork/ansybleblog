@@ -2,7 +2,7 @@
 title: "A comparison with Signal and Telegram"
 ---
 
-Ansyble is in many ways a theoretical endeavor, with the objective of optimizing between accessibility and encryption. In this post, we'll discuss how Ansyble differs from Signal and Telegram on the backend with a focus on data storage, cryptography, and distribution, and how this manifests in the user experience.
+Ansyble is in many ways a theoretical endeavor, with the objective of optimizing between usability and encryption. In this post, we'll discuss how Ansyble differs from Signal and Telegram on the backend with a focus on data storage, security, and distribution, and how this manifests in the user experience.
 
 ### Signal
 
@@ -41,7 +41,7 @@ Telegram is essentially not encrypted. Rather, it supports end-to-end encrypted 
 
 In contrast, Ansyble is _always_ end-to-end encrypted. In particular, all features are entirely compatible with its encryption.
 
-I should add that Telegram is unlikely to change, because Telegram is at its heart, an unencrypted, public platform. The inescapable issue is that end-to-end encryption does not scale well, while the main draw of Telegram is its support for large communication channels. I've heard it does this very well. 
+I should add that Telegram is unlikely to change, because Telegram is at its heart, an unencrypted, public platform. The inescapable issue is that end-to-end encryption does not scale well, while the main draw of Telegram is its support for large communication channels. I've heard it does this very well.
 
 It's unfortunate that people put Telegram in the same sentence as Signal; Telegram fits much better in a category with Twitter, Facebook, Twitch, etc.
 
