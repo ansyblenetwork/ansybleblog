@@ -5,7 +5,7 @@ title: "About and FAQ"
 Ansyble is an app for online conversations. Unlike most other chat apps, Ansyble is built on the open web. This means that it is designed to produce a seamless cross-platform experience. For instance:
 
 1. It's easy to get started: Just choose a username. There is no need for, or association with, phone numbers or emails.
-2. Ansyble runs on any major browser (Chome, Firefox, or Safari), on either mobile or desktop, with no installation or downloads. The native app is entirely optional, as long as you have the URL [ansyblemessenger.herokuapp.com/](ansyblemessenger.herokuapp.com/).
+2. Ansyble runs on any major browser (Chome, Firefox, or Safari), on either mobile or desktop, with no installation or downloads. The native app is entirely optional, as long as you have the URL ([ansyblemessenger.herokuapp.com/](ansyblemessenger.herokuapp.com/)).
 3. Messages are synchronized in real-time between however many devices you happen to be using.
 4. Messages are saved on the cloud, so you can immediately access and search them from any of those devices.
 5. By default, Ansyble saves no personal information to your device.
