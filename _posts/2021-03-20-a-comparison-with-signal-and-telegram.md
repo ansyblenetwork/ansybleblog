@@ -2,7 +2,7 @@
 title: "A comparison with Signal and Telegram"
 ---
 
-Ansyble is in many ways a theoretical endeavor. In this post, we'll discuss how Ansyble differs from Signal and Telegram on the backend with a focus on data, cryptography, and distribution, and how this manifests in the user experience.
+Ansyble is in many ways a theoretical endeavor, with the objective of optimizing between accessibility and encryption. In this post, we'll discuss how Ansyble differs from Signal and Telegram on the backend with a focus on data storage, cryptography, and distribution, and how this manifests in the user experience.
 
 ### Signal
 
