@@ -37,11 +37,18 @@ In contrast, with Signal, if someone physically obtains your device, your entire
 
 ### Telegram
 
+Telegram is often compared to Signal, but to my knowledge, this is mostly due to a good/deceptive marketing team.
+
+#### Encryption
+
 Telegram is essentially not encrypted. Rather, it supports end-to-end encrypted "secret chats" as a temporary communication channel, akin to a temporary phone call or video chat. It's a strange feature to have, because if I truly had something extraordinarily sensitive that I deliberately wanted Telegram not to access, I would use Signal or real life (or Ansyble!).
 
-In contrast, Ansyble is _always_ end-to-end encrypted. In particular, all features are entirely compatible with its encryption.
+In contrast, Ansyble is _always_ end-to-end encrypted. All features are entirely compatible with its encryption. Further, Ansyble attempts to be as private as possible, within the limits of the features it offers. For instance, nothing prevents the encryption of your display name before sending it off to the servers and your contacts - so this is exactly what happens.
 
-I should add that Telegram is unlikely to change, because Telegram is at its heart, an unencrypted, public platform. The inescapable issue is that end-to-end encryption does not scale well, while the main draw of Telegram is its support for large communication channels. I've heard it does this very well.
+#### Scalability
+
+Telegram is unlikely to change, because Telegram is at its heart, an unencrypted, public platform. The inescapable issue is that end-to-end encryption does not scale well, while the main draw of Telegram is its support for large communication channels. I've heard it does this very well.
+
+In contrast, Ansyble (and presumably Signal) are much less able to host communication channels including hundreds or thousands of participants, because proper encryption is computationally intensive.
 
 It's unfortunate that people put Telegram in the same sentence as Signal; Telegram fits much better in a category with Twitter, Facebook, Twitch, etc.
-
