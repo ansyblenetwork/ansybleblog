@@ -1,5 +1,6 @@
 name: Ansyble's Blog
 baseurl: ansybleblog
+excerpt_separator: "\n\n\n"
 
 permalink: /:year/:month/:day/:title
 plugins:
