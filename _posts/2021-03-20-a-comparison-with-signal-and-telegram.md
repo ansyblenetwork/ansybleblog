@@ -4,6 +4,7 @@ title: "A comparison with Signal and Telegram"
 
 Ansyble is in many ways a theoretical endeavor, with the objective of optimizing between usability and encryption. In this post, we'll discuss how Ansyble differs from Signal and Telegram on the backend with a focus on data storage, security, and distribution, and how this manifests in the user experience.
 
+
 ### Signal
 
 At a high level, Signal ties security to your device, while Ansyble ties security to your password. (Ansyble currently does not support two-factor authentication. This would certainly change if it actually got a userbase.)
