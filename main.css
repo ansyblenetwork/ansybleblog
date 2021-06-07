@@ -2,6 +2,12 @@
   --fixWidth: 0px;
 }
 
+.fb-comments {
+	margin:auto;
+	margin-bottom:30px;
+	width:85%;
+}
+
 iframe {
   position: absolute;
   top: 0;
@@ -34,6 +40,7 @@ iframe {
     max-height:60%;	
     margin-left: auto;
     margin-right: auto;  
+    margin-top:16px;
     pointer-events: none;
 }
 
@@ -52,7 +59,7 @@ iframe {
 .titlepanel {
 	display:flex; 
 	align-items:center; 
-	margin:15px 10px 15px 10px;
+	margin:30px 10px 30px 10px;
 }
 
 div:focus {
@@ -86,7 +93,8 @@ input[type=number] {
 /*-------------------------------*/
 
 .contentHolder {
-  padding:15px;
+  padding:0px;
+	margin-bottom:30px;
 }
 
 .sidebar {
@@ -135,12 +143,15 @@ input[type=number] {
 }
 
 .main {  
-  padding-left:calc(330px + 20px);
+  padding-left:calc(320px + 50px);
   top:0px;
-  padding:20px;
+  padding:40px;
   max-width:920px;
-  width: calc(100% - 330px);
+  width: calc(100% - 370px);
   overflow:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
 }
 
 .media {
@@ -152,7 +163,22 @@ input[type=number] {
   padding-right: 10px;
   padding-top: 1px;
   padding-bottom: 1px;
-  background-color: #f4f4f4;
+  background-color: #f4f7f7;
+}
+
+.media p {
+	font-style:italic;
+}
+
+blockquote {
+  margin:10px 0px 10px 0px;
+  padding:1px 10px 1px 10px;
+  border-radius: 10px;
+  background-color: #f4f7f7;
+}
+
+blockquote p {
+	font-style:italic;
 }
 
 /*-----------*/
@@ -175,7 +201,7 @@ button {
   color: #333;
   border-radius: 5px;
   border: 0px solid #fff;
-  background-color:#f4f4f4;
+  background-color:#f4f7f7;
   font-size:1em;
   cursor: pointer;
 }
@@ -294,12 +320,14 @@ ul::-webkit-scrollbar-thumb:hover {
     position: fixed;
     margin-left: 0px;
     padding-left:20px;
+    padding-right:20px;
     width: 100vw;
     height: 100%;
     overflow:auto;
 	  
   box-sizing:border-box; 
 	  
+	display:block;	  
   }
 	  
    .outersidebar{
@@ -351,7 +379,6 @@ ul::-webkit-scrollbar-thumb:hover {
     
   .contentHolder {	  
      padding:0px;
-     min-height:125vh;
   }
 
   ::-webkit-scrollbar {
@@ -364,5 +391,10 @@ ul::-webkit-scrollbar-thumb:hover {
   	scrollbar-width: none;
 }  
 
+.fb-comments {
+	margin:auto;
+	margin-bottom:30px;
+	width:100%;
+}
 	  
 }
