@@ -2,16 +2,16 @@
 title: "About and FAQ"
 ---
 
-Ansyble is an app for online conversations. Unlike most other chat apps, Ansyble is built on the open web. This means that it is designed to produce a seamless cross-platform experience. For instance:
+Ansyble is a web app for online conversations. Unlike most other secure chat apps, Ansyble is built on the open web. This means that it is designed to produce a seamless cross-platform experience. For instance:
 
-1. It's easy to get started: Just choose a username. There is no need for, or association with, phone numbers or emails.
+1. It's easy to get started: Just choose a username. There is no need for any association with phone numbers or emails.
 2. Ansyble runs on any major browser (Chome, Firefox, or Safari), on either mobile or desktop, with no installation or downloads. The native app is entirely optional, as long as you have the URL ([ansyblemessenger.herokuapp.com/](ansyblemessenger.herokuapp.com/)).
 3. Messages are synchronized in real-time between however many devices you happen to be using.
-4. Messages are saved on the cloud, so you can immediately access and search them from any of those devices.
-5. By default, Ansyble saves no personal information to your device.
+4. Messages are saved on the cloud, so you can immediately access and search them from any of your devices.
+5. By default, Ansyble saves no personal information to your device, so it is reaonably safe to use on a public device.
 6. All communications and personal data are end-to-end encrypted. Nothing appears as plaintext to Ansyble except usernames and timestamps.
-7. You can easily export messages to CSV/Excel.
-8. The interface is fast, simple, and optimized: Minimal so as to host the maximal number of features.
+7. You can easily export messages to CSV/Excel. (For those who like Ansyble's interface, I am also working on some sort of JSON export with offline support.)
+8. The interface is fast, simple, and optimized, designed to be minimal so as to host the maximal number of features.
 9. Everything is open source, in one small HTML file you can access from your browser's development tools.
 
 In short, there should be a simple, fast, and fully functional username-based messaging application built on the modern browser. I wasn't aware of one, so I made one.
@@ -21,13 +21,13 @@ In short, there should be a simple, fast, and fully functional username-based me
 
 I'm a random stranger on the internet who might know a bit about coding and cryptography. You can contact me at: ansyblenetwork@gmail.com
 
-__Note:__ I'm only one person with a day job. Expectations that align with this are mostly true.
+__Note:__ I'm only one person, with a separate day job. Expectations that align with this amount of manpower are mostly accurate.
 
 #### Why can't I find Ansyble on Google?
 
-I made Ansyble for fun during 2020. I'm not making any serious effort on SEO or promotion. Ansyble may or may not grow; if it does, it will have been mostly organically.
+I made Ansyble as an outlet during the crises of 2020. I'm not making any serious effort on SEO or promotion. Ansyble may or may not grow; if it does, it will have been mostly organically.
 
-#### Does Ansyble make any money?
+#### Does Ansyble make money?
 
 No.
 
@@ -35,7 +35,7 @@ No.
 
 This is a legitimate concern. So far, Ansyble has been up and running since March 2020, or at least one year. At the time of writing, Ansyble is essentially free and effortless for me to run, so I have no reason to end the project.
 
-The only reason I can imagine that this would change is if a lot of people suddenly started using Ansyble. Then, maintenance would be less free and effortless. But to my mind, such increased interest would only make me more inclined to continue the project.
+The only means I can imagine by which this could change is if a lot of people suddenly started using Ansyble. Then, maintenance would be less free and effortless, but to my mind, such increased interest would only make me more inclined to continue the project.
 
 In any case, I will make every effort to inform all users if support ends. (Until then, keep in mind that there is a convenient export-to-CSV/Excel function for your backup needs.)
 
@@ -55,8 +55,8 @@ No. Ansyble is a one-person project and at the time of writing, essentially no o
 
 However, the source code is always available to you (or any user) via your browser's development tools. If you're interested in the project and/or the encryption, I would be happy to discuss via email: ansyblenetwork@gmail.com
 
-Note: I am aware of and waiting for action regarding the theoretical concern discussed [here](https://github.com/w3c/ServiceWorker/issues/822).
+Note: I am aware of the concern about web app code integrity discussed [here](https://github.com/w3c/ServiceWorker/issues/822). Ansyble addresses this in what I believe is a novel way, which I will discuss in a future post.
 
-#### Wait...is the icon inspired by that well-known photograph, (xyz)?
+#### Wait...is the icon inspired by that well-known photograph, XYZ?
 
 YES. Contact me!!
