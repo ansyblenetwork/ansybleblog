@@ -11,10 +11,15 @@
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	<meta name="google-site-verification" content="coxUr92sz6JQGiw4brXoZ3HB37p_WhTaLmP0aAWfwrY" />
+	
+	<meta property="fb:admins" content="asp.ansyble"/>
 	{% seo %}
 </head>
 	
 <body>	
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="S4tJ3X3o"></script>
+	
 	<div id="outersidebar" class="outersidebar">
 	<div class="sidebar">
 	<div class="rpanel" id="accountPanel" tabIndex="-1" onfocus="D('postlist').focus();">		
@@ -31,7 +36,7 @@
 		<ul class="ulsidebar" id="postlist" style="overflow:auto;">
 			{% for post in site.posts %}					
 				{% if page.title == post.title %}	
-					<li id="specialPost" style="background-color:#f4f4f4"><span class="date-format">{{ post.date | date: "%B %-d, %Y" }}</span><br>
+					<li id="specialPost" style="background-color:#f4f7f7"><span class="date-format">{{ post.date | date: "%B %-d, %Y" }}</span><br>
 						{{ post.title }}</li>
 				{% else %}				
 					<a href="{{ post.url | relative_url }}"><li><span class="date-format">{{ post.date | date: "%B %-d, %Y" }}</span><br>
@@ -48,40 +53,57 @@
 	<div id="main" class="main">		
 		{% if page.title %}		
 			<h1>{{ page.title }}</h1>
-			<div class="date-format" style="padding-bottom:15px">{{ page.date | date: "%B %-d, %Y" }}</div>
+			<div class="date-format" style="padding-bottom:15px"><a id="repoLink">{{ page.date | date: "%B %-d, %Y" }}</a></div>
 		{% endif %}
 
 		<div class="contentHolder">
 		{{ content }}	
-		</div>
-	</div>	
+		</div>		
+		<div id="comment"></div>
+	</div>		
 </body>	
 
 <script>
+// facebook comments
+D('comment').outerHTML = `<div id="comment" class="fb-comments" data-href="${window.location.href}" data-width="100%" data-numposts="10"></div>`;
+
+// add base URL to relative links (for project pages)
+var relativelinks = document.getElementsByTagName("a");
+let baseURL = "/" + window.location.pathname.split('/')[1];
+if (baseURL.slice(0, 3) != "/20") {
+	for (let i = 0; i < relativelinks.length; i++) {
+		if (relativelinks[i].pathname.slice(0, 3) == "/20") {	
+			relativelinks[i].pathname = baseURL + relativelinks[i].pathname;
+		}
+	}
+}
+
+// add link to github repository
+var accountName = window.location.host.split('.')[0];
+var filename = window.location.pathname.split('/').slice(2).join('-');
+D('repoLink').href = `https://github.com/${accountName}${baseURL}/blob/main/_posts/${filename}.md`;
+
+// adjust display for mobile vs desktop
 var mobile = false;
 if(D('specialPost')) D('specialPost').scrollIntoView({behavior: "auto", block: "center", inline: "nearest"}); 
 if (screen.width <= 550 || screen.height <= 550) {
 	mobile = true;		
-	D('main').onclick = function() { D('outersidebar').scrollTo({
-	  top: 0,
-	  left: 1000,
-	  behavior: 'smooth'}); };
+	D('main').onclick = function() { D('outersidebar').scrollTo({top: 0, left: 1000, behavior: 'smooth'}); };
 }
 else {				
 	window.addEventListener("resize", resizeFunction);
 	D("accountPanel").onclick = resizeFunction;
 	resizeFunction();
 	function resizeFunction() { 
-		// 30 for the left padding in the content; 20 for the right padding
-		var w = D('accountPanel').offsetWidth + 30;
+		// 50 for the left padding in the content; 40 for the right padding
+		var w = D('accountPanel').offsetWidth + 50;
 		D("main").style.paddingLeft = `${w}px`;
-		D("main").style.width = `calc(100% - ${w}px - 20px)`;
+		D("main").style.width = `calc(100% - ${w}px - 40px)`;
 	}  
 }
 
-	
-var images = document.getElementsByTagName("img");
-	
+// add captions to images
+var images = document.getElementsByTagName("img");	
 for (let i = 0; i < images.length; i++) {
 	if (images[i].title) {		
 		let caption = document.createElement("div");
@@ -92,86 +114,68 @@ for (let i = 0; i < images.length; i++) {
 	}
 }
 	
+// Youtube embedding
 var ytString = [];
 let holder = [];	
-	
 var tag = make('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 	
 var ytRegex = /^.*(youtu\.be\/|vi?\/|u\/\w\/|embed\/|\?vi?=|\&vi?=)([^#\&\?]*).*/;	
-	
 var list = document.getElementsByTagName("a");
 for (let i = 0; i < list.length; i++) {
 	var match = list[i].href.match(ytRegex);
 	if (match && match[2].length == 11) {
 		ytString[i] = match[2];
-		holder[i] = document.createElement("div");
+		holder[i] = make("div");
 		if (list[i].nextElementSibling) list[i].nextElementSibling.parentNode.insertBefore(holder[i], list[i].nextElementSibling);
 		else list[i].parentNode.appendChild(holder[i]);
 		
-		// holder[i].appendChild(make("br"));		
+		// the embed button
 		let myPreBut = make("button");
-		myPreBut.textContent = "Embedded player";
+		myPreBut.textContent = "Youtube clip";
 		let placeHolder = make("div");		
 		placeHolder.style.textAlign = 'center';
-		placeHolder.style.padding = "0.75em";
+		placeHolder.style.margin = "16px";
 		placeHolder.appendChild(myPreBut);
 		holder[i].appendChild(placeHolder);
-		
-		function makeDiv(li) {		
-			let tempdiv = make('div', 'videoWrapWrap');
-
-			let wrapOne = make('div', 'mediaVideoWrapper');
-			wrapOne.innerHTML = `<svg class='placeholder-svg' height="100%" width="100%" viewBox="0 0 1600 900" style='stroke-width: 0px; background-color: black;'></svg>`;
-			hide(wrapOne);
-
-			tempdiv.appendChild(wrapOne);
-			li.appendChild(tempdiv);
-
-			return tempdiv;
-		}
 
 		myPreBut.onclick = function() {
-			
+			// remove the embed button
 			function remove(element) { element.parentNode.removeChild(element);}
 			remove(myPreBut.parentNode);
-			let tempdiv = makeDiv(holder[i]);
-			tempdiv.style.paddingTop = "0.75em";
-			tempdiv.firstChild.style.display = "block";
-
+			
+			// outer to inner Youtube divs (3 layers)
+			holder[i].classList.add('videoWrapWrap');
+			let wrapOne = make('div', 'mediaVideoWrapper');
+				wrapOne.innerHTML = `<svg class='placeholder-svg' height="100%" width="100%" viewBox="0 0 1600 900" style='stroke-width: 0px; background-color: black;'></svg>`;
 			let theVideo = make('div');
-			theVideo.id = `player${i}`;
-			tempdiv.firstChild.appendChild(theVideo);
+				theVideo.id = `player${i}`;		
+			wrapOne.appendChild(theVideo);
+			holder[i].appendChild(wrapOne);
 
-			let myBut = make("button");
-			hide(myBut);
+			// Youtube video
 			let player = new YT.Player(`player${i}`, {
-					playerVars: { 'modestbranding': 1},
-					videoId: ytString[i],
-					events: {
-						onReady: function() { show(myBut); },
-					}
+				playerVars: { 'modestbranding': 1},
+				videoId: ytString[i],
 			});	
 		}
 	}
 }
 	
-function D(string) { return document.getElementById(string); }		
+function D(string) { return document.getElementById(string); }	
+function DE(id) {
+	if (typeof id === 'string' || id instanceof String) return D(id);
+	else return id;	
+}
+function show(id) { DE(id).style.display = 'inline';}	
+function hide(id) { DE(id).style.display = 'none';}
 	
 function make(string, myClass) { 
 	let myObj = document.createElement(string);
 	if (myClass) myObj.classList.add(myClass);
 	return myObj;
-}
-	
-function show(id) { DE(id).style.display = 'inline';}
-	
-function hide(id) { DE(id).style.display = 'none';}
-	function DE(id) {
-	if (typeof id === 'string' || id instanceof String) return D(id);
-	else return id;	
 }
 	
 window.onload = function() {
