@@ -33,7 +33,7 @@ No.
 
 #### Is my data safe on Ansyble? Will it be here tomorrow, next week, next month, etc?
 
-This is a legitimate concern. So far, Ansyble has been up and running since March 2020, or at least one year. At the time of writing, Ansyble is essentially free and effortless for me to run, so I have no reason to end the project.
+A legitimate concern. So far, Ansyble has been up and running since March 2020, or at least one year. At the time of writing, Ansyble is essentially free and effortless for me to run, so I have no reason to end the project.
 
 The only means I can imagine by which this could change is if a lot of people suddenly started using Ansyble. Then, maintenance would be less free and effortless, but to my mind, such increased interest would only make me more inclined to continue the project.
 
