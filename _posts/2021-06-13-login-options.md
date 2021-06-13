@@ -35,3 +35,9 @@ __Note:__ Existing chats that were initiated online will continue to be stored a
 ### Simulate how the server sees your data
 
 This simulates what developers and attackers can reconstruct from the data that is stored on Ansyble's servers, ie. without your password.
+
+You will find that the server can see a surprisingly large amount of information about you. However, I claim that no other centralized messaging app can prove to you that they collect anything less. For instance, Signal claims that they collect almost no information about you, but it is impossible for them to prove this. Everything that Ansyble collects, Signal might be secretly collecting as well.
+
+In other words, Ansyble's privacy claims are both trustless and optimal. If there is a protocol that can prove a piece of data is inaccessible to the server, Ansyble implements it. On the other hand, Ansyble essentially collects everything it cannot prove to you that it does not collect.
+
+(This is slightly inaccurate: Ansyble does not collect login timestamps or IP addresses at the time of writing.)
