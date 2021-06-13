@@ -8,11 +8,11 @@ Here is an explanation of the login options for Ansyble.
 
 By default, Ansyble's persistent storage contains no personal data, except your username. This means that your display name (first and last), password, encryption key, messages, etc. all vanish immediately if for instance, you pull the battery from your device.
 
-The most annoying property of this login option is perhaps that push notifications cannot be read in plaintext: Since your encryption key is not stored, the message cannot be decrypted. You will only receive notifications that indicate the presence of a new message.
+The most annoying property of this login option is perhaps that push notifications cannot be read in plaintext. Since your encryption key is not stored, the message cannot be decrypted. You will only receive notifications that indicate the presence of a new message.
 
 ### Save encryption key only
 
-This is a nice option because you don't need to log in every time you load Ansyble. Further, push notifications can now be read in plaintext. 
+This is a nice option because you don't need to log in every time you load Ansyble. Further, push notifications can be read in plaintext. 
 
 ### Save encryption key and message data (not yet implemented)
 
