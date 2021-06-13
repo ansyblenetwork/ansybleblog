@@ -2,7 +2,7 @@
 title: "Ansyble's many login options"
 ---
 
-Here is an explanation of the login options for Ansyble:
+Here is an explanation of the login options for Ansyble.
 
 ### Save nothing personal (default)
 
@@ -31,3 +31,7 @@ The main disadvantages are:
 2. Your messages will not be accessible from other devices.
 
 __Note:__ Existing chats that were initiated online will continue to be stored and accessible via the cloud. Only __new__ chats (initiated either by you or your contacts) will enjoy perfect forward secrecy.
+
+### Simulate how the server sees your data
+
+This simulates what developers and attackers can reconstruct from the data that is stored on Ansyble's servers, ie. without your password.
