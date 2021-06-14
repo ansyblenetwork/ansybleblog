@@ -16,6 +16,7 @@ This is a nice option because you don't need to log in every time you load Ansyb
 
 __Tip:__ In contrast to the previous option, saving your encryption key allows push notifications to be read in plaintext.
 
+
 ### Save encryption key and message data (not yet implemented)
 
 This is the most similar to the login options for other common messaging apps. You can read messages offline, provided that they have been loaded previously while connected to the internet.
