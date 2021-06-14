@@ -1,5 +1,5 @@
 ---
-title: "Ansyble's many login options"
+title: "Ansyble's login options"
 ---
 
 Here is an explanation of the login options for Ansyble.
