@@ -7,8 +7,8 @@ Ansyble is a web app for online conversations. Unlike most other secure chat app
 1. It's easy to get started: Just choose a username. There is no need for any association with phone numbers or emails.
 2. Ansyble runs on any major browser (Chome, Firefox, or Safari), on either mobile or desktop, with no installation or downloads. The native app is entirely optional, as long as you have the URL ([ansyblemessenger.herokuapp.com/](ansyblemessenger.herokuapp.com/)).
 3. Messages are synchronized in real-time between however many devices you happen to be using.
-4. Messages are saved on the cloud, so you can immediately access and search them from any of your devices.
-5. By default, Ansyble saves no personal information to your device, so it is reaonably safe to use on a public device.
+4. Message ciphers are saved on the cloud, so you can immediately access and search them from any of your devices.
+5. By default, Ansyble saves no personal information to your device, so it is reasonably safe to use on a public device.
 6. All communications and personal data are end-to-end encrypted. Nothing appears as plaintext to Ansyble except usernames and timestamps.
 7. You can easily export messages to CSV/Excel. (For those who like Ansyble's interface, I am also working on some sort of JSON export with offline support.)
 8. The interface is fast, simple, and optimized, designed to be minimal so as to host the maximal number of features.
