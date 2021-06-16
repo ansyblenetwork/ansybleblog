@@ -24,8 +24,8 @@
 	<div class="sidebar">
 	<div class="rpanel" id="accountPanel" tabIndex="-1" onfocus="D('postlist').focus();">		
 		<div class="titlepanel">			
-			<a href="{{ "" | absolute_url }}"><img id="titleimg" src="{{ "icon-192x192.png" | relative_url }}" alt="{{ site.posts.last.url | relative_url }}" style="flex-shrink:0; max-height:50px; min-width:50px; padding-right:10px"></a>
-			<span id="titletext" style="font-weight:bold;"><a href="{{ "" | absolute_url }}">{{ site.name }}</a>
+			<a href="{{ "" | absolute_url }}"><img src="{{ "icon-192x192.png" | relative_url }}" alt="{{ site.posts.last.url | relative_url }}" style="flex-shrink:0; max-height:50px; min-width:50px; padding-right:10px"></a>
+			<span style="font-weight:bold;"><a href="{{ "" | absolute_url }}">{{ site.name }}</a>
 				<div style="margin-top:10px; font-size:0.8em;">
 					<a href="https://ansyblemessenger.herokuapp.com/">App</a>
 					<a style="margin-left:20px"  href="{{ site.posts.last.url | relative_url }}">About</a>
@@ -181,6 +181,6 @@ function make(string, myClass) {
 window.onload = function() {
 	D('outersidebar').scrollTo({left: D('outersidebar').scrollWidth,top:0, behavior:'smooth'});
 };
-
+	
 </script>
 </html>
