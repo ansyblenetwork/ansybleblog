@@ -4,7 +4,7 @@ title: "Ansyble's login options"
 
 Here is an explanation of the login options for Ansyble.
 
-#### Save nothing personal (default)
+#### Cache nothing personal (default)
 
 By default, Ansyble's persistent storage contains no personal data, except your username. This means that your display name (first and last), password, encryption key, messages, etc. all vanish immediately if for instance, you pull the battery from your device.
 
@@ -12,18 +12,18 @@ This also means that you need to enter your password every time you load or refr
 
 The most annoying property of this login option is perhaps that push notifications also cannot be read in plaintext. However, you will still receive notifications that indicate the arrival of new messages.
 
-#### Save encryption key only
+#### Cache encryption key only
 
 This is a nice option because you don't need to enter your password every time you load Ansyble.
 
 __Tip:__ In further contrast to the default login option, saving your encryption key allows push notifications to be read in plaintext.
 
 
-#### Save encryption key and message data (not yet implemented)
+#### Cache everything
 
 This is the most similar to the login approach implemented by other common messaging apps. You can read messages offline, provided that they have been previously loaded while connected to the internet.
 
-#### Save everything, exclusively (Signal protocol)
+#### Cache everything, exclusively (Signal protocol)
 
 This is essentially an implementation of the Signal protocol. The main advantages here are: 
 
