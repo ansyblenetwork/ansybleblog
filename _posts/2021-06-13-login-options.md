@@ -35,7 +35,7 @@ The main disadvantages are:
 1. This obviously leaves all of your messages accessible on your device.
 2. Your messages will not be accessible from other devices.
 
-__Note:__ Existing chats that were initiated online will continue to be stored and accessible via the cloud. Only _new_ chats (initiated either by you or your contacts) will enjoy perfect forward secrecy.
+__Note:__ Existing chats that were initiated under any other login option will continue to be stored and accessible via the cloud. Only _new_ chats (initiated either by you or your contacts) will enjoy perfect forward secrecy.
 
 #### Simulate how the server sees your data
 
