@@ -63,9 +63,8 @@
 		<div class="contentHolder">
 			{{ content }}	
 		</div>
-
-		<button onclick="toggleComments(this);" style="margin-bottom:50px;">Show comments</button>
-		<div id="comment" style="display:none"></div>
+		
+		<div id="comment"></div>
 	</div>	
 	
 </body>	
@@ -74,17 +73,6 @@
 // facebook comments
 D('comment').outerHTML = `<div id="comment" class="fb-comments" data-href="${window.location.href}" data-width="100%" data-numposts="10"></div>`;
 
-function toggleComments(but) {
-	if (D('comment').style.display == 'none') {
-		show(D('comment'));
-		but.textContent = 'Hide comments';
-	}
-	else {
-		hide(D('comment'));		
-		but.textContent = 'Show comments';
-	}
-}
-																	
 // add base URL to relative links (for project pages)
 var relativelinks = document.getElementsByTagName("a");
 let baseURL = "/" + window.location.pathname.split('/')[1];
@@ -187,7 +175,7 @@ function DE(id) {
 	if (typeof id === 'string' || id instanceof String) return D(id);
 	else return id;	
 }
-function show(id) { DE(id).style.display = 'initial';}	
+function show(id) { DE(id).style.display = 'inline';}	
 function hide(id) { DE(id).style.display = 'none';}
 	
 function make(string, myClass) { 
