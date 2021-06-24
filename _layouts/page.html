@@ -64,7 +64,7 @@
 			{{ content }}	
 		</div>
 
-		<button onclick="toggleComments();">Show comments</button>
+		<button onclick="toggleComments();" style="display:none">Show comments</button>
 		<div id="comment" style="display:none"></div>
 	</div>	
 	
@@ -75,8 +75,14 @@
 D('comment').outerHTML = `<div id="comment" class="fb-comments" data-href="${window.location.href}" data-width="100%" data-numposts="10"></div>`;
 
 function toggleComments() {
-	if (D('comment').style.display == 'none') show(D('comment'));
-	else hide(D('comment'));													
+	if (D('comment').style.display == 'none') {
+		show(D('comment'));
+		this.textContent = 'Hide comments';
+	}
+	else {
+		hide(D('comment'));		
+		this.textContent = 'Show comments';
+	}
 }
 																	
 // add base URL to relative links (for project pages)
