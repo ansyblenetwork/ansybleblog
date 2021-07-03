@@ -1,8 +1,8 @@
 ---
-title: "Code integrity quote"
+title: "Code integrity"
 ---
 
-Because Ansyble is a web app, its code can be updated by the server at will. This means that even if you verify that Ansyble's code uses secure encryption protocols, it might be tampered with as soon as you "look away."
+Because Ansyble is a web app, its code can be updated by the server at will. This means that even if you verify that the code your browser receives currently uses secure encryption, it might be replaced on your next visit.
 
 To address this, upon installation, all authentic versions of Ansyble's code will save a random quote to your device as a cookie. This quote is not shared with Ansyble's server, and is always on display while the web app is running. The code is instructed to delete this quote immediately if new or updated code is about to be installed.
 
