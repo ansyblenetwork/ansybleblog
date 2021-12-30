@@ -10,6 +10,5 @@ To address this, upon installation, all authentic versions of Ansyble's code wil
 As a result, you can see when Ansyble's code has been updated (and the new code cannot reliably conceal this fact, since it does not know which quote was on your device). Precisely, if you notice that Ansyble is running with a new or missing quote, one of the following has occurred:
 
 1. Ansyble was recently updated.
-2. You're running on incognito mode, which disallows cookies.
-3. You're not using your usual device.
-4. Someone has infiltrated your connection to Ansyble and is sending you code which may have been tampered with.
+2. You're not using your usual device or browser, or are running on incognito mode.
+3. Someone has infiltrated your connection to Ansyble and is sending you code which has been tampered with.
